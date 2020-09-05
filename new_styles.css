@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(144, 147, 148);
+  }
+  
+  .siteHeader {
+    width: 50%;
+    margin: 15px 0px;
+    padding-left: 1rem;
+  }
+  
+  .siteNav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 15px;
+  }
+  
+  .navButton {
+    margin: 0em 1em 0em 0em;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+
+.project {
+    background-color: rgb(153, 205, 206);
+  display: flex;
+  justify-content: space-around;
+  margin: 2vw 0vw;
+  padding: 2vw 0vw;
+}
+.projectImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectImage img {
+  width: 75%;
+}
+
+.projectInfo {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.projectTitle {
+  width: 100%;
+  font-size: 2vw;
+}
+.projectDescription {
+  width: 100%;
+  font-size: 1.5vw;
+}
+.projectInfo h4 {
+  width: 100%;
+  font-size: 1.75vw;
+}
+.projectInfo ul {
+  width: 100%;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .project {
+    flex-wrap: wrap;
+  }
+
+  .projectImage {
+    width: 100%;
+  }
+  .projectInfo{
+      width: 75%;
+  }
+  .projectTitle{
+      font-size: 6vw;
+  }
+  .projectDescription{
+      font-size: 4vw;
+  }
+  .projectInfo h4{
+      font-size: 5vw;
+  }
+  .projectInfo ul{
+      font-size: 4vw;
+  }
+}
